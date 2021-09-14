@@ -11,6 +11,11 @@ body {
 .headerMenu {
    height: 68px; 
    background-color: #ffffff;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 2;
+   width: 100%;
 }
 
 .active {
@@ -38,6 +43,7 @@ body {
 
 .menuFlex {
     display: flex;
+    justify-content: space-between;
 }
 
 .imgFlex {
@@ -123,7 +129,7 @@ h1 {
 .lowerPart {
     height: 400px;
     width: 100%;
-    margin-top: 212px;
+    margin-top: 298px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 26px;
     text-align: center;
